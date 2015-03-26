@@ -1,0 +1,9 @@
+To test this project you need to compile Indexer and Searcher with java version at least 1.7.
+Than run Indexer with first argument equal to path to corpus. It takes ~30 seconds to create an inverse index.
+It creates a folder "index" with index files. Than you can run Searcher from the same directory. It reads a query
+from standart input and prints results to standart output.
+
+You can use brackets, and, or, not in your queries. Please, make correct queries and don't use non-alphabetic characters
+(except brackets).
+
+Good luck!
